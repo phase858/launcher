@@ -3,7 +3,7 @@ require "file_utils"
 
 base_path = File.expand_path("..", Process.executable_path)
 
-puts base_path
+#puts base_path
 
 config_raw = File.read(File.join(base_path,"launcher.conf"))
 
